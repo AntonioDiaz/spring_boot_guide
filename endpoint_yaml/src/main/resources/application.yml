@@ -1,0 +1,39 @@
+spring:
+  profiles:
+    active: qa
+
+---
+spring:
+  profiles: qa
+
+server:
+  port: 9191
+
+default:
+  course:
+    name: "The Art of Software Testing"
+    chapterCount: 2
+
+course:
+  name: "Expert One-on-One J2EE Design and Development"
+  chapterCount: 55
+  author: Rob Johnson
+  rating: 9
+
+---
+spring:
+  profiles: dev
+
+server:
+  port: 9090
+
+default:
+  course:
+    name: "Design Patterns: Elements of Reusable Object-Oriented Software"
+    chapterCount: 2
+
+course:
+  name: "Expert One-on-One J2EE Design and Development"
+  chapterCount: 55
+  author: Rob Johnson
+  rating: 9
