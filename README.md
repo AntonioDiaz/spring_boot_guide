@@ -743,12 +743,12 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 <span sec:autorize="isAutenticated()" style=""></span>
 ```
 ## 9. Actuator
-![JPA](images/actuator_02.jpg)
+![](images/actuator_02.jpg)
 * Actuator brings production-ready features to our application without having to actually implement these features ourselves.
 * Actuator exposes devops information about the running application - health, metrics, info, logs, env, jvm, etc.
 * It uses HTTP endpoints or JMX beans to enable us to interact with it.
 
-![JPA](images/actuator_01.jpg)
+![](images/actuator_01.jpg)
 
 * Import dependencies:
 ```xml
