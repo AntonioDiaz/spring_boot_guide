@@ -311,7 +311,7 @@ logging.pattern.file = %d %-5level [%thread] %logger : %msg%n
 ```
 ## 6. Spring Data JPA
 ### What is Spring Data JAP?
-![JPA](images/jpa_01.jpg)
+![JPA](images/JPA_01.JPG)
 * Java Persistence API is Java specification for accessing, persisting and managing data between java objects 
 and database.
 * ORM let you map your entity classes into relation mapping, so once you connect to database, ORM framework will do the 
@@ -319,7 +319,7 @@ query, transaction and mapping.
 * JPA is specification to use ORM.
 * **Spring Data JPA** is a separate project within the Spring Data ecosystem and lets you connect whit different persistence 
 kind of store, both SQL and noSQL with much more easier approach. 
-![JPA](images/jpa_02.jpg)
+![JPA](images/JPA_02.JPG)
 * Spring Data JPA-Features
     * Sophisticated support to build repositories based on Spring and JPA.
     * Support for **Querydsl** predicates thus type-safe JPA queries.
@@ -743,12 +743,12 @@ public class LoginSuccessHandler implements AuthenticationSuccessHandler {
 <span sec:autorize="isAutenticated()" style=""></span>
 ```
 ## 9. Actuator
-![](images/actuator_02.jpg)
+![](images/actuator_02.JPG)
 * Actuator brings production-ready features to our application without having to actually implement these features ourselves.
 * Actuator exposes devops information about the running application - health, metrics, info, logs, env, jvm, etc.
 * It uses HTTP endpoints or JMX beans to enable us to interact with it.
 
-![](images/actuator_01.jpg)
+![](images/actuator_01.JPG)
 
 * Import dependencies:
 ```xml
